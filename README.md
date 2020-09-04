@@ -54,3 +54,15 @@ nest start -w admin
 #### 添加控制器
 
 `nest g co -p admin users`
+
+
+
+## admin后台管理（server 同级）
+
+`vue create admin`
+
+- 使用ts开发vue
+- 加入element组件 `vue add element`
+- 加入路由`vue add router`
+- 转ts项目`vue add typescript`
+
