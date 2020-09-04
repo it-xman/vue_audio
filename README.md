@@ -35,3 +35,22 @@ nest g lib db
 nest start -w admin
 ```
 
+### 数据库模块开发
+
+#### 安装 
+
+`nestjs-typegoose  `
+
+`@typegoose/typegoose`
+
+`mongoose`
+
+`@types/mongoose`
+
+#### 在admin模块里添加子模块
+
+`nest g mo -p admin users`
+
+#### 添加控制器
+
+`nest g co -p admin users`
