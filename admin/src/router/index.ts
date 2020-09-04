@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter, {RouteConfig} from 'vue-router'
 import Main from "@/views/Main.vue";
 import Home from "@/views/Home.vue";
-
+import CourseList from "@/views/courses/CourseList.vue"
 
 Vue.use(VueRouter)
 
@@ -11,7 +11,8 @@ Vue.use(VueRouter)
     path: '/',
     component: Main,
     children: [
-      {name: 'home', path: '/', component: Home}
+      {name: 'home', path: '/', component: Home},
+      {name: 'course-list', path: '/courses/list', component: CourseList}
     ]
   },
 
